@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001244;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.frases-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.frases-container h2 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.frases-container p {
+    color: #fFF;
+    font-size: 18px;
+}
+
+.forms-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-container .chat {
+    margin-bottom: 15px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-container input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #001244;
+    border-radius: 5px;
+}
+
+.form-container .container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container .botao {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container .botao:hover {
+    background-color: #007BFF;
+}
+
+.message-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background: #11114A;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.vt-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.vt-button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background: #ff8800;
+    color: #001244;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.vt-button:hover {
+    background: #ff8800;
+    transform: scale(1.05);
+}
